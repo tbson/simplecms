@@ -1,0 +1,1 @@
+docker-compose exec simplecms_api "$@"
