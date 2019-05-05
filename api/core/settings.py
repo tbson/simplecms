@@ -28,7 +28,7 @@ APPEND_SLASH = True
 
 # Application definition
 
-REQUIRED_APPS = [
+REQUIRED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,10 +39,11 @@ REQUIRED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_swagger',
     'rest_auth',
-]
+)
 
-PROJECT_APPS = [
-]
+PROJECT_APPS = (
+    'apps.variable',
+)
 
 INSTALLED_APPS = REQUIRED_APPS + PROJECT_APPS
 
